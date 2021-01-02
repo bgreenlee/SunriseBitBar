@@ -13,7 +13,7 @@
 
 // Customizations
 
-let LOCATION = "Mercer Island, WA" // or lat,lon coordinates
+let LOCATION = "Seattle, WA" // or lat,lon coordinates
 let DAYS = 7 // number of days to show
 let PAST_DAYS = 0 // number of days in the past to show
 let LOCATION_FONT = "Menlo"
