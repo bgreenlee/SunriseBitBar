@@ -13,10 +13,10 @@
 
 // Customizations
 
-let LOCATION = "Seattle, WA" // or lat,lon coordinates
+let LOCATION = "Mercer Island, WA" // or lat,lon coordinates
 let DAYS = 7 // number of days to show
 let PAST_DAYS = 0 // number of days in the past to show
-let TIME_STYLE:DateFormatter.Style = .short // .short, .medium, .long, .full
+let TIME_STYLE:DateFormatter.Style = .medium // .short, .medium, .long, .full
 let LOCATION_FONT = "Menlo"
 let LOCATION_COLOR = "black"
 let SUNRISE_FONT = "Menlo"
