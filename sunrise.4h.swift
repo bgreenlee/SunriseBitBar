@@ -2,7 +2,7 @@
 
 /*
  * <bitbar.title>Sunrise</bitbar.title>
- * <bitbar.version>v1.0</bitbar.version>
+ * <bitbar.version>v1.0.1</bitbar.version>
  * <bitbar.author>Brad Greenlee</bitbar.author>
  * <bitbar.author.github>bgreenlee</bitbar.author.github>
  * <bitbar.desc>Displays sunrise, sunset, and day length for a location.</bitbar.desc>
