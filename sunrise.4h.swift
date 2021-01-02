@@ -6,7 +6,7 @@
  * <bitbar.author>Brad Greenlee</bitbar.author>
  * <bitbar.author.github>bgreenlee</bitbar.author.github>
  * <bitbar.desc>Displays sunrise, sunset, and day length for a location.</bitbar.desc>
- * <bitbar.image></bitbar.image>
+ * <bitbar.image>https://github.com/bgreenlee/SunriseBitBar/blob/main/sunrise-bitbar.png?raw=true</bitbar.image>
  * <bitbar.dependencies>Xcode,swift</bitbar.dependencies>
  * <bitbar.abouturl>https://github.com/bgreenlee/SunriseBitBar</bitbar.abouturl>
  */
