@@ -2,7 +2,7 @@
 
 /*
  * <bitbar.title>Sunrise</bitbar.title>
- * <bitbar.version>v1.0.1</bitbar.version>
+ * <bitbar.version>v1.1</bitbar.version>
  * <bitbar.author>Brad Greenlee</bitbar.author>
  * <bitbar.author.github>bgreenlee</bitbar.author.github>
  * <bitbar.desc>Displays sunrise, sunset, and day length for a location.</bitbar.desc>
@@ -16,6 +16,7 @@
 let LOCATION = "Seattle, WA" // or lat,lon coordinates
 let DAYS = 7 // number of days to show
 let PAST_DAYS = 0 // number of days in the past to show
+let TIME_STYLE:DateFormatter.Style = .short // .short, .medium, .long, .full
 let LOCATION_FONT = "Menlo"
 let LOCATION_COLOR = "black"
 let SUNRISE_FONT = "Menlo"
@@ -61,7 +62,7 @@ for i in -PAST_DAYS..<DAYS-PAST_DAYS {
 
         let timeFormatter = DateFormatter()
         timeFormatter.dateStyle = .none
-        timeFormatter.timeStyle = .short
+        timeFormatter.timeStyle = TIME_STYLE
         if let timezone = timezone {
             timeFormatter.timeZone = timezone
         }
