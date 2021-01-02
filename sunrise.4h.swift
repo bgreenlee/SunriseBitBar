@@ -13,7 +13,7 @@
 
 // Customizations
 
-let LOCATION = "Seattle, WA" // or lat,lon coordinates
+let LOCATION = "Mercer Island, WA" // or lat,lon coordinates
 let DAYS = 7 // number of days to show
 let PAST_DAYS = 0 // number of days in the past to show
 let LOCATION_FONT = "Menlo"
@@ -66,8 +66,8 @@ for i in -PAST_DAYS..<DAYS-PAST_DAYS {
             timeFormatter.timeZone = timezone
         }
 
-        let sunrise = timeFormatter.string(from: solar.sunrise!)
-        let sunset = timeFormatter.string(from: solar.sunset!)
+        let sunrise = timeFormatter.string(from: solar.sunrise!).lowercased()
+        let sunset = timeFormatter.string(from: solar.sunset!).lowercased()
         let daylengthFormatter = DateComponentsFormatter()
         daylengthFormatter.unitsStyle = .abbreviated
         daylengthFormatter.allowedUnits = [.minute, .hour]
